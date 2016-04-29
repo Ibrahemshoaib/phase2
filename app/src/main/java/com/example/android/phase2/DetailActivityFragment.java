@@ -306,8 +306,8 @@ public class DetailActivityFragment extends Fragment {
                 final String API_KEY_PARAM = "api_key";
 
                 Uri builtUri = Uri.parse(BASE_URL).buildUpon()
-                        .appendQueryParameter(API_KEY_PARAM, getString(R.string.tmdb_api_key))
-                        .build();
+                        .appendQueryParameter(API_KEY_PARAM, "")//add your API KEY
+                .build();
 
                 URL url = new URL(builtUri.toString());
 
@@ -410,7 +410,7 @@ public class DetailActivityFragment extends Fragment {
                 final String API_KEY_PARAM = "api_key";
 
                 Uri builtUri = Uri.parse(BASE_URL).buildUpon()
-                        .appendQueryParameter(API_KEY_PARAM, getString(R.string.tmdb_api_key))
+                        .appendQueryParameter(API_KEY_PARAM, "")//add your API KEY
                         .build();
 
                 URL url = new URL(builtUri.toString());

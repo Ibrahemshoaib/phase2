@@ -6,5 +6,5 @@
     <string name="details">Details</string>
     <string name="action_favorite">Favorite</string>
     <string name="content_authority">com.example.android.phase2</string>
-    <string name="tmdb_api_key">68d95c6b2920543c3460515842bed783</string>
+    <string name="tmdb_api_key"></string> //add your API KEY
 </resources>
